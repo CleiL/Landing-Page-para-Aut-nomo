@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#1A1C22;
+    color: #ffffff;
+
+}
+
+/*header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li, header nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #3DAF5D;
+
+    text-transform: uppercase;
+}
+
+/*color text*/
+header h1{
+    color: #FBBC09;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+section h2{
+    color: #3DAF5D;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+article h3{
+    color: #3d9eaf;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+article h4{
+    color: #CB1F1F;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/*main*/
+main section article{
+    text-align: justify;
+}
+
+main #Sobre{
+    width: 650px;
+    height: 120px;
+}
+
+main #Jornada #textjornada{
+    width: 650px;
+    height: 120px;
+}
+
+main #Jornada h2{
+    text-align: end;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer section ul li {
+    list-style: none;
+}
+
+footer #Assinatura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #Assinatura img{
+    width: 50%;
+    height: 100%;
+    
+}
+
