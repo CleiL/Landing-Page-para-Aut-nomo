@@ -167,3 +167,26 @@ footer #redesSociais ul li{
     margin-top: 30px;
 }
 
+footer #Contato ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: #3DAF5D;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+footer #Contato ul li a:hover{
+    background-color: #FBBC09;
+}
+
+footer #Contato ul li{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+
