@@ -1,4 +1,6 @@
 *{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -6,7 +8,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     background-color:#1A1C22;
     color: #ffffff;
-
+    margin: 20px;
 }
 
 /*header*/
@@ -14,6 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100px;
 }
 
 header nav ul {
@@ -59,25 +62,69 @@ main section article{
     text-align: justify;
 }
 
-main #Sobre{
-    width: 650px;
-    height: 120px;
+main #Sobre, #Jornada,{
+    width: 1200px;
+    height: 200px;
+    display: flex;
 }
 
-main #Jornada #textjornada{
-    width: 650px;
-    height: 120px;
+main #Sobre article{
+    line-height: 20px;
 }
 
-main #Jornada h2{
-    text-align: end;
+main #Sobre article h2, #Jornada article h2{
+    margin-bottom: 20px;
 }
+
+/*Projeto*/
+main #Projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main #Projetos article p{
+    margin-bottom: 30px;
+}
+
+main #Projetos article a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: #3DAF5D;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+main #Projetos article a:hover{
+    background-color: #FBBC09;
+}
+
+/*Conhecimentos*/
+
+main #Conhecimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/*Serviços*/
+
 
 /*footer*/
 footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 footer section ul li {
@@ -95,5 +142,25 @@ footer #Assinatura img{
     width: 50%;
     height: 100%;
     
+}
+
+footer #redesSociais ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: #3DAF5D;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+footer #redesSociais ul li a:hover{
+    background-color: #FBBC09;
+}
+
+footer #redesSociais ul li{
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
